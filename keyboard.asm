@@ -12,7 +12,7 @@ ADDR_KBRD:
 	.globl main
 
 main:
-	li 		$v0, 32
+    li 		$v0, 32
 	li 		$a0, 1
 	syscall
 
